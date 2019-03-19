@@ -1,0 +1,54 @@
+body{
+    background-color: #304ffe;
+}
+
+div.card{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #ffffff;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+   display: block;
+   text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    width: 98%;
+    height: 1cm;
+    color: #8e24aa;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+}
+
+ul{
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+ul > li {
+    margin: 5px;
+    list-style-type: none;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 5px;
+}
+
+ul > li > span {
+    position: absolute;
+    left: 88%;
+    cursor: pointer;
+}
+
